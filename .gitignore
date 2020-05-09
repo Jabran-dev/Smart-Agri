@@ -1,0 +1,7 @@
+force-app/main/default/profiles
+debug.log
+*.db
+*.ts
+*\.sfdx
+
+

@@ -65,4 +65,9 @@ Smart Agri is an application that facilitates the operations of irrigation and f
 
 ## Description of Files and Directories
 
+-   **config/project-scratch-def.json:** This file define the shape of scratch org. This will create an org for development and testing.
+-   **data:** The data directory contains the csv files used for adding data to scratch org. The csv files have data of fertilization and irrigation planners
+-   **force-app:** This directory includes the source of Smart-Agri web application.
+-   **sfdx-project.json:** This file contains the configurations of package. 
+
 ## Learning Resources

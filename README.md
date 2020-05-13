@@ -63,6 +63,11 @@ Smart Agri is an application that facilitates the operations of irrigation and f
 
 ## Smart Agri Features
 
+1. The Smart Agri will automate the process of irrigation with the help of predefined planner.
+2. The Smart Agri will facilitate the process of fertilization by analyzing the need of crop.
+3. The Smart Agri will provide user option to update the planners for fertilization and irrigation.
+4. The Smart Agri will show the progress of irrigation and fertilization to user with the help of reports.
+
 ## Description of Files and Directories
 
 -   **config/project-scratch-def.json:** This file define the shape of scratch org. This will create an org for development and testing.
@@ -71,3 +76,5 @@ Smart Agri is an application that facilitates the operations of irrigation and f
 -   **sfdx-project.json:** This file contains the configurations of package. 
 
 ## Learning Resources
+
+For learning about Salesforce Package Development, Please do the [Build Apps Together with Package Development](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started) trail and refer to [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/)

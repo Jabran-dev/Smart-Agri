@@ -1,0 +1,1093 @@
+{
+    "records":[
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir1"
+            },
+            "Day__c": "1",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-16" 
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir2"
+            },
+
+            "Day__c": "2",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-17" 
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir3"
+            },
+
+            "Day__c": "3",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-18"  
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir4"
+            },
+
+            "Day__c": "4",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-19"  
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir5"
+            },
+
+            "Day__c": "5",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-20" 
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir6"
+            },
+
+            "Day__c": "6",
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-21"  
+        },
+
+        {
+            "attributes": {
+                "types": "IrrigationPlanner__c",
+                "referencedId": "ir7"
+            },
+
+            "Day__c": "7",
+            "WaterLevel__c": "85", 
+            "ScheduleDate__c" : "2020-05-22" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir8"
+
+           },
+
+            "Day__c": "8",
+             "WaterLevel__c": "85", 
+             "ScheduleDate__c" : "2020-05-23" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir9"
+
+           },
+
+            "Day__c": "9",
+             "WaterLevel__c": "85", 
+             "ScheduleDate__c" : "2020-05-24" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir10"
+
+           },
+
+            "Day__c": "10",
+             "WaterLevel__c": "85", 
+             "ScheduleDate__c" : "2020-05-25" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir11"
+
+           },
+
+            "Day__c": "11",
+             "WaterLevel__c": "85",
+             "ScheduleDate__c" : "2020-05-26" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir12"
+
+           },
+
+            "Day__c": "12" ,
+             "WaterLevel__c": "85",
+             "ScheduleDate__c" : "2020-05-27"
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir13"
+
+           },
+
+            "Day__c": "13",
+             "WaterLevel__c": "85",
+             "ScheduleDate__c" : "2020-05-28" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir14"
+
+           },
+
+            "Day__c": "14",
+             "WaterLevel__c": "85",
+             "ScheduleDate__c" : "2020-05-29" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir15"
+
+           },
+
+            "Day__c": "15",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-05-30" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "16"
+
+           },
+
+            "Day__c": "16",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-05-31" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir17"
+
+           },
+
+            "Day__c": "17",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-01" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir18"
+
+           },
+
+            "Day__c": "18",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-02" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir19"
+
+           },
+
+            "Day__c": "19",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-03" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir20"
+
+           },
+
+            "Day__c": "20",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-04" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir21"
+
+           },
+
+            "Day__c": "21",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-05" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir22"
+
+           },
+
+            "Day__c": "22",
+             "WaterLevel__c": "7o",
+             "ScheduleDate__c" : "2020-06-06" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir23"
+
+           },
+
+            "Day__c": "23",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-07" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir24"
+
+           },
+
+            "Day__c": "24",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-08" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "25"
+
+           },
+
+            "Day__c": "25",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-09" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir26"
+
+           },
+
+            "Day__c": "26",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-10"
+        }
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir27"
+
+           },
+
+            "Day__c": "27" ,
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-11" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir28"
+
+           },
+
+            "Day__c": "28",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-12" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir29"
+
+           },
+
+            "Day__c": "29",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-13" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "30"
+
+           },
+
+            "Day__c": "30",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-14" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir31"
+
+           },
+
+            "Day__c": "31",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-15" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir32"
+
+           },
+
+            "Day__c": "32",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-16" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir33"
+
+           },
+
+            "Day__c": "33",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-17" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir34"
+
+           },
+
+            "Day__c": "34",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-18" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir35"
+
+           },
+
+            "Day__c": "35",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-19" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir36"
+
+           },
+
+            "Day__c": "36",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-20" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir37"
+
+           },
+
+            "Day__c": "37",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-21" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir38"
+
+           },
+
+            "Day__c": "38",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-22" 
+        },
+        
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir39"
+
+           },
+
+            "Day__c": "39",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-23" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir40"
+
+           },
+
+            "Day__c": "40",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-24" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir41"
+
+           },
+
+            "Day__c": "41",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-25" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir42"
+
+           },
+
+            "Day__c": "42",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-26" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir43"
+
+           },
+
+            "Day__c": "43",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-27" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir44"
+
+           },
+
+            "Day__c": "44",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-28" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir45"
+
+           },
+
+            "Day__c": "45",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-29" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir46"
+
+           },
+
+            "Day__c": "46",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-06-30" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir47"
+
+           },
+
+            "Day__c": "47",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-01" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir48"
+
+           },
+
+            "Day__c": "48",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-02" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir49"
+
+           },
+
+            "Day__c": "49",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-03" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir50"
+
+           },
+
+            "Day__c": "50",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-04" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir51"
+
+           },
+
+            "Day__c": "51",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-05" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir52"
+
+           },
+
+            "Day__c": "52",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-06" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir53"
+
+           },
+
+            "Day__c": "53",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-07" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir54"
+
+           },
+
+            "Day__c": "54",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-08" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir55"
+
+           },
+
+            "Day__c": "55",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-09" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir56"
+
+           },
+
+            "Day__c": "56",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-10" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "57"
+
+           },
+
+            "Day__c": "57",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-11" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir58"
+
+           },
+
+            "Day__c": "58",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-12" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir59"
+
+           },
+
+            "Day__c": "59",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-13" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir60"
+
+           },
+
+            "Day__c": "60",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-14" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir61"
+
+           },
+
+            "Day__c": "61",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-15" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir62"
+
+           },
+
+            "Day__c": "62",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-16" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir63"
+
+           },
+
+            "Day__c": "63",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-17" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir64"
+
+           },
+
+            "Day__c": "64",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-18" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir65"
+
+           },
+
+            "Day__c": "65",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-19" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir66"
+
+           },
+
+            "Day__c": "66",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-20" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir67"
+
+           },
+
+            "Day__c": "67",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-21" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir68"
+
+           },
+
+            "Day__c": "68",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-22" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir69"
+
+           },
+
+            "Day__c": "69",
+             "WaterLevel__c": "70",
+             "ScheduleDate__c" : "2020-07-23" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir70"
+
+           },
+
+            "Day__c": "70",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-24" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir71"
+
+           },
+
+            "Day__c": "71",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-25" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir72"
+
+           },
+
+            "Day__c": "72",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-26" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir73"
+
+           },
+
+            "Day__c": "73",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-27" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir74"
+
+           },
+
+            "Day__c": "74",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-28" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir75"
+
+           },
+
+            "Day__c": "75",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-29" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir76"
+
+           },
+
+            "Day__c": "76",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-30" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir77"
+
+           },
+
+            "Day__c": "77",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-07-31" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir78"
+
+           },
+
+            "Day__c": "78",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-01" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir79"
+
+           },
+
+            "Day__c": "79",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-02" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir80"
+
+           },
+
+            "Day__c": "80",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-03" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir81"
+
+           },
+
+            "Day__c": "81",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-04" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir82"
+
+           },
+
+            "Day__c": "82",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-05" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir83"
+
+           },
+
+            "Day__c": "83",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-06" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir84"
+
+           },
+
+            "Day__c": "84",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-07" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir85"
+
+           },
+
+            "Day__c": "85",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-08" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir86"
+
+           },
+
+            "Day__c": "86",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-09" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir87"
+
+           },
+
+            "Day__c": "87",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-10" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir88"
+
+           },
+
+            "Day__c": "88",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-11" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir89"
+
+           },
+
+            "Day__c": "89",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-12" 
+        },
+
+        {
+            "attributes": {
+            "types": "IrrigationPlanner__c",
+            "referencedId": "ir90"
+
+           },
+
+            "Day__c": "90",
+             "WaterLevel__c": "60",
+             "ScheduleDate__c" : "2020-08-13" 
+        }
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    ]
+
+}

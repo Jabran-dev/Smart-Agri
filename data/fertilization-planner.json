@@ -1,0 +1,166 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp1"
+            },
+            "Day__c": "1",
+            "Nitrogen__c": "32.5",
+            "Phosphorus__c": "85",
+            "Potassium__c": "55",
+            "ScheduleDate__c" : "2020-05-16"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp2"
+            },
+            "Day__c": "30",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-15"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp3"
+            },
+            "Day__c": "31",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-16"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp4"
+            },
+            "Day__c": "32",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-17"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp5"
+            },
+            "Day__c": "33",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-18"
+        },
+
+        {
+        
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp6"
+            },
+            "Day__c": "34",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-19"
+        },
+        
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp8"
+            },
+            "Day__c": "35",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-20"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp9"
+            },
+            "Day__c": "36",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-21"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp10"
+            },
+            "Day__c": "37",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-22"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp11"
+            },
+            "Day__c": "38",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-23"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp12"
+            },
+            "Day__c": "39",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-24"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp13"
+            },
+            "Day__c": "40",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-25"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp14"
+            },
+            "Day__c": "41",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-26"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp15"
+            },
+            "Day__c": "42",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-27"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp16"
+            },
+            "Day__c": "43",
+            "Nitrogen__c": "2",
+            "ScheduleDate__c" : "2020-06-28"
+        },
+
+        {
+            "attributes": {
+                "type": "FertilizationPlanner__c",
+                "referenceId": "fp17"
+            },
+            "Day__c": "44",
+            "Nitrogen__c": "2.5",
+            "ScheduleDate__c" : "2020-06-29"
+        }
+    ]
+}

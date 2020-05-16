@@ -1,0 +1,14 @@
+[
+    {
+        "sobject": "FertilizationPlanner__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["fertilization-planner.json"]
+    },
+    {
+        "sobject": "IrrigationPlanner__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["irrigation-planner.json"]
+    }
+]

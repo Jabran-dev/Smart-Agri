@@ -2,8 +2,8 @@
     "records":[
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir1"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir1"
             },
             "Day__c": "1",
             "WaterLevel__c": "85",
@@ -12,8 +12,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir2"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir2"
             },
 
             "Day__c": "2",
@@ -23,8 +23,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir3"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir3"
             },
 
             "Day__c": "3",
@@ -34,8 +34,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir4"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir4"
             },
 
             "Day__c": "4",
@@ -45,8 +45,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir5"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir5"
             },
 
             "Day__c": "5",
@@ -56,8 +56,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir6"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir6"
             },
 
             "Day__c": "6",
@@ -67,8 +67,8 @@
 
         {
             "attributes": {
-                "types": "IrrigationPlanner__c",
-                "referencedId": "ir7"
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir7"
             },
 
             "Day__c": "7",
@@ -78,68 +78,63 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir8"
-
-           },
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir8"
+            },
 
             "Day__c": "8",
-             "WaterLevel__c": "85", 
-             "ScheduleDate__c" : "2020-05-23" 
+            "WaterLevel__c": "85", 
+            "ScheduleDate__c" : "2020-05-23" 
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir9"
-
-           },
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir9"
+            },
 
             "Day__c": "9",
-             "WaterLevel__c": "85", 
-             "ScheduleDate__c" : "2020-05-24" 
+            "WaterLevel__c": "85", 
+            "ScheduleDate__c" : "2020-05-24" 
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir10"
-
-           },
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir10"
+            },
 
             "Day__c": "10",
-             "WaterLevel__c": "85", 
-             "ScheduleDate__c" : "2020-05-25" 
+            "WaterLevel__c": "85", 
+            "ScheduleDate__c" : "2020-05-25" 
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir11"
-
-           },
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir11"
+            },
 
             "Day__c": "11",
-             "WaterLevel__c": "85",
-             "ScheduleDate__c" : "2020-05-26" 
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-26" 
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir12"
-
-           },
+                "type": "IrrigationPlanner__c",
+                "referenceId": "ir12"
+            },
 
             "Day__c": "12" ,
-             "WaterLevel__c": "85",
-             "ScheduleDate__c" : "2020-05-27"
+            "WaterLevel__c": "85",
+            "ScheduleDate__c" : "2020-05-27"
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir13"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir13"
 
            },
 
@@ -150,8 +145,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir14"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir14"
 
            },
 
@@ -162,8 +157,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir15"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir15"
 
            },
 
@@ -174,8 +169,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "16"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir16"
 
            },
 
@@ -186,8 +181,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir17"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir17"
 
            },
 
@@ -198,8 +193,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir18"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir18"
 
            },
 
@@ -210,8 +205,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir19"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir19"
 
            },
 
@@ -222,8 +217,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir20"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir20"
 
            },
 
@@ -234,8 +229,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir21"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir21"
 
            },
 
@@ -246,20 +241,20 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir22"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir22"
 
            },
 
             "Day__c": "22",
-             "WaterLevel__c": "7o",
+             "WaterLevel__c": "70",
              "ScheduleDate__c" : "2020-06-06" 
         },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir23"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir23"
 
            },
 
@@ -270,8 +265,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir24"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir24"
 
            },
 
@@ -282,8 +277,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "25"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir25"
 
            },
 
@@ -294,20 +289,20 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir26"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir26"
 
            },
 
             "Day__c": "26",
              "WaterLevel__c": "70",
              "ScheduleDate__c" : "2020-06-10"
-        }
+        },
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir27"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir27"
 
            },
 
@@ -318,8 +313,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir28"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir28"
 
            },
 
@@ -330,8 +325,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir29"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir29"
 
            },
 
@@ -342,8 +337,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "30"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir30"
 
            },
 
@@ -354,8 +349,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir31"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir31"
 
            },
 
@@ -366,8 +361,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir32"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir32"
 
            },
 
@@ -378,8 +373,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir33"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir33"
 
            },
 
@@ -390,8 +385,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir34"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir34"
 
            },
 
@@ -402,8 +397,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir35"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir35"
 
            },
 
@@ -414,8 +409,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir36"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir36"
 
            },
 
@@ -426,8 +421,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir37"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir37"
 
            },
 
@@ -438,8 +433,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir38"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir38"
 
            },
 
@@ -450,8 +445,8 @@
         
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir39"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir39"
 
            },
 
@@ -462,8 +457,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir40"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir40"
 
            },
 
@@ -474,8 +469,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir41"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir41"
 
            },
 
@@ -486,8 +481,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir42"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir42"
 
            },
 
@@ -498,8 +493,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir43"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir43"
 
            },
 
@@ -510,8 +505,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir44"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir44"
 
            },
 
@@ -522,8 +517,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir45"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir45"
 
            },
 
@@ -534,8 +529,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir46"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir46"
 
            },
 
@@ -546,8 +541,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir47"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir47"
 
            },
 
@@ -558,8 +553,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir48"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir48"
 
            },
 
@@ -570,8 +565,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir49"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir49"
 
            },
 
@@ -582,8 +577,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir50"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir50"
 
            },
 
@@ -594,8 +589,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir51"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir51"
 
            },
 
@@ -606,8 +601,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir52"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir52"
 
            },
 
@@ -618,8 +613,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir53"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir53"
 
            },
 
@@ -630,8 +625,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir54"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir54"
 
            },
 
@@ -642,8 +637,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir55"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir55"
 
            },
 
@@ -654,8 +649,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir56"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir56"
 
            },
 
@@ -666,8 +661,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "57"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir57"
 
            },
 
@@ -678,8 +673,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir58"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir58"
 
            },
 
@@ -690,8 +685,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir59"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir59"
 
            },
 
@@ -702,8 +697,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir60"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir60"
 
            },
 
@@ -714,8 +709,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir61"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir61"
 
            },
 
@@ -726,8 +721,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir62"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir62"
 
            },
 
@@ -738,8 +733,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir63"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir63"
 
            },
 
@@ -750,8 +745,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir64"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir64"
 
            },
 
@@ -762,8 +757,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir65"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir65"
 
            },
 
@@ -774,8 +769,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir66"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir66"
 
            },
 
@@ -786,8 +781,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir67"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir67"
 
            },
 
@@ -798,8 +793,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir68"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir68"
 
            },
 
@@ -810,8 +805,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir69"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir69"
 
            },
 
@@ -822,8 +817,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir70"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir70"
 
            },
 
@@ -834,8 +829,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir71"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir71"
 
            },
 
@@ -846,8 +841,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir72"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir72"
 
            },
 
@@ -858,8 +853,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir73"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir73"
 
            },
 
@@ -870,8 +865,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir74"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir74"
 
            },
 
@@ -882,8 +877,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir75"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir75"
 
            },
 
@@ -894,8 +889,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir76"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir76"
 
            },
 
@@ -906,8 +901,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir77"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir77"
 
            },
 
@@ -918,8 +913,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir78"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir78"
 
            },
 
@@ -930,8 +925,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir79"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir79"
 
            },
 
@@ -942,8 +937,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir80"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir80"
 
            },
 
@@ -954,8 +949,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir81"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir81"
 
            },
 
@@ -966,8 +961,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir82"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir82"
 
            },
 
@@ -978,8 +973,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir83"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir83"
 
            },
 
@@ -990,8 +985,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir84"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir84"
 
            },
 
@@ -1002,8 +997,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir85"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir85"
 
            },
 
@@ -1014,8 +1009,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir86"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir86"
 
            },
 
@@ -1026,8 +1021,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir87"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir87"
 
            },
 
@@ -1038,8 +1033,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir88"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir88"
 
            },
 
@@ -1050,8 +1045,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir89"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir89"
 
            },
 
@@ -1062,8 +1057,8 @@
 
         {
             "attributes": {
-            "types": "IrrigationPlanner__c",
-            "referencedId": "ir90"
+            "type": "IrrigationPlanner__c",
+            "referenceId": "ir90"
 
            },
 
@@ -1071,23 +1066,5 @@
              "WaterLevel__c": "60",
              "ScheduleDate__c" : "2020-08-13" 
         }
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
     ]
-
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ServiceTypeNotDefined</fullName>
+        <categories>Permission</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Service type not defined</shortDescription>
+        <value>Service type must be defined either Fertilization or Irrigation</value>
+    </labels>
+    <labels>
+        <fullName>NotFound</fullName>
+        <categories>Data</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NotFound</shortDescription>
+        <value>{!sobject} entry not found for today!</value>
+    </labels>
+</CustomLabels>

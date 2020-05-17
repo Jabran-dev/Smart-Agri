@@ -28,6 +28,12 @@ global class Analyzer
             {
                 response_body = fertilizationService(request_body);
             }
+
+            if(service_type.equalsIgnoreCase(IRRIGATION_TYPE))
+            {
+                response_body = irrigationService(request_body);
+            }
+
             res.statusCode = 200;
         }
         catch(Exception ex)
@@ -47,7 +53,7 @@ global class Analyzer
         List<FertilizationPlanner__c> fertilization_planner = [
             SELECT Id, Day__c, Nitrogen__c, Phosphorus__c,
             Potassium__c FROM FertilizationPlanner__c
-            WHERE ScheduleDate__c =: date.valueOf('2020-06-15')
+            WHERE ScheduleDate__c =: System.today()
         ];
 
         if(fertilization_planner.size() == 0)
@@ -76,6 +82,38 @@ global class Analyzer
         response_body.put('Suggested Nitrogen', actuator_nitrogen);
         response_body.put('Suggested Phosphorus', actuator_phosphorus);
         response_body.put('Suggested Potassium', actuator_potassium);
+        
+        return response_body;
+    }
+    
+    private static Map<String, Object> irrigationService(Map<String, Object> requestBody)
+    {
+        List<IrrigationPlanner__c> irrigation_planner = [
+            SELECT Id, Day__c, WaterLevel__c, ScheduleDate__c
+            FROM IrrigationPlanner__c
+            WHERE ScheduleDate__c =: System.today()
+        ];
+
+        if(irrigation_planner.size() == 0)
+        {
+            throw new  AnalyzerException(Label.NotFound.replace('{!sobject}', SObjectType.IrrigationPlanner__c.getLabel()));           
+        }
+
+        Map<String, Object> response_body = new Map<String, Object>();
+        Decimal water_level = (Decimal)requestBody.get('Water Level');
+        
+        Decimal actuator_water_level = irrigation_planner[0].WaterLevel__c - water_level;
+
+        if(actuator_water_level > 0)
+        {
+            response_body.put('Message', 'Recommended');
+        }
+        else 
+        {
+            response_body.put('Message', 'Not Recommended');    
+        }
+
+        response_body.put('Suggested Water Level', actuator_water_level);
         
         return response_body;
     }

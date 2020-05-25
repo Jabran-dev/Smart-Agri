@@ -3,5 +3,6 @@ debug.log
 *.db
 *.ts
 *\.sfdx
+.localdevserver/
 
 

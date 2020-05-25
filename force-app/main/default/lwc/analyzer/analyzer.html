@@ -1,0 +1,55 @@
+<template>
+    <lightning-card title="Analyzer" icon-name="custom:custom14">
+        <template if:true={input_window}>
+            <div class="slds-m-around_medium">
+                <lightning-input
+                    name="nitrogen"
+                    label="Nitrogen"
+                    type="number"
+                    onchange={handleChange}
+                ></lightning-input>
+                <lightning-input
+                    name="phosphorus"
+                    label="Phosphorus"
+                    type="number"
+                    onchange={handleChange}
+                ></lightning-input>
+                <lightning-input
+                    name="potassium"
+                    label="Potassium"
+                    type="number"
+                    onchange={handleChange}
+                ></lightning-input>
+                <lightning-input
+                    name="water_level"
+                    label="Water Level"
+                    type="number"
+                    onchange={handleChange}
+                ></lightning-input>
+                <br />
+                <lightning-button
+                    label="Analyzer"
+                    variant="brand"
+                    onclick={analyzeState}
+                ></lightning-button>
+            </div>
+        </template>
+        <template if:true={output_window}>
+            <div class="slds-m-around_medium">
+                <p>Suggested Nitrogen : {rec_nitrogen}</p>
+                <p>Suggested Phosphorus : {rec_phosphorus}</p>
+                <p>Suggested Potassium : {rec_potassium}</p>
+                <p>Action : {npk_message}</p>
+                <br/>
+                <p>Suggested Water Level : {rec_water_level}</p>
+                <p>Action : {wl_message}</p>
+                <br/>
+                <lightning-button
+                    label="Re-Enter"
+                    variant="brand"
+                    onclick={reenter}
+                ></lightning-button>
+            </div>
+        </template>
+    </lightning-card>
+</template>

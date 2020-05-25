@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/analyzer": [
+                "analyzer/analyzer.js"
+            ],
+            "c/locationMap": [
+                "locationMap/locationMap.js"
+            ]
+        }
     },
     "include": [
         "**/*",

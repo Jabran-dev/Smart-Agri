@@ -4,6 +4,7 @@ global class Analyzer
 
     static String FERTILIZATION_TYPE = 'Fertilization';
     static String IRRIGATION_TYPE = 'Irrigation';
+    static String WEATHER_API_KEY = '2fd1f5080d164626353fa9c2f7e8abbb';
 
     @HttpPost
     global static void doPost() 
@@ -48,7 +49,8 @@ global class Analyzer
         }
     }
 
-    private static Map<String, Object> fertilizationService(Map<String, Object> requestBody)
+    @AuraEnabled(cacheable=true)
+    public static Map<String, Object> fertilizationService(Map<String, Object> requestBody)
     {
         List<FertilizationPlanner__c> fertilization_planner = [
             SELECT Id, Day__c, Nitrogen__c, Phosphorus__c,
@@ -58,13 +60,13 @@ global class Analyzer
 
         if(fertilization_planner.size() == 0)
         {
-            throw new  AnalyzerException(Label.NotFound.replace('{!sobject}', SObjectType.FertilizationPlanner__c.getLabel()));           
+            throw new AnalyzerException(Label.NotFound.replace('{!sobject}', SObjectType.FertilizationPlanner__c.getLabel()));           
         }
 
         Map<String, Object> response_body = new Map<String, Object>();
-        Decimal nitrogen = (Decimal)requestBody.get('Nitrogen');
-        Decimal phosphorus = (Decimal)requestBody.get('Phosphorus');
-        Decimal potassium = (Decimal)requestBody.get('Potassium');
+        Decimal nitrogen = Decimal.valueOf(String.valueOf(requestBody.get('Nitrogen')));
+        Decimal phosphorus = Decimal.valueOf(String.valueOf(requestBody.get('Phosphorus')));
+        Decimal potassium = Decimal.valueOf(String.valueOf(requestBody.get('Potassium')));
 
         Decimal actuator_nitrogen = fertilization_planner[0].Nitrogen__c - nitrogen;
         Decimal actuator_phosphorus = fertilization_planner[0].Phosphorus__c - phosphorus;
@@ -72,11 +74,11 @@ global class Analyzer
 
         if(actuator_nitrogen > 0 || actuator_phosphorus > 0 || actuator_potassium > 0)
         {
-            response_body.put('Message', 'Recommended');
+            response_body.put('Message', 'Recommended: Amount of fertilizers are low');
         }
         else 
         {
-            response_body.put('Message', 'Not Recommended');    
+            response_body.put('Message', 'Not Recommended: Aount of fertilizers meets the requirements');
         }
 
         response_body.put('Suggested Nitrogen', actuator_nitrogen);
@@ -86,7 +88,8 @@ global class Analyzer
         return response_body;
     }
     
-    private static Map<String, Object> irrigationService(Map<String, Object> requestBody)
+    @AuraEnabled(cacheable=true)
+    public static Map<String, Object> irrigationService(Map<String, Object> requestBody)
     {
         List<IrrigationPlanner__c> irrigation_planner = [
             SELECT Id, Day__c, WaterLevel__c, ScheduleDate__c
@@ -100,17 +103,33 @@ global class Analyzer
         }
 
         Map<String, Object> response_body = new Map<String, Object>();
-        Decimal water_level = (Decimal)requestBody.get('Water Level');
+        Decimal water_level = Decimal.valueOf(String.valueOf(requestBody.get('Water Level')));
         
         Decimal actuator_water_level = irrigation_planner[0].WaterLevel__c - water_level;
 
         if(actuator_water_level > 0)
         {
-            response_body.put('Message', 'Recommended');
+            FieldLocation__c field_loc = getFieldLocation();
+            System.debug('>>>>>>>');
+            System.debug(field_loc);
+            Weather weather_data = weatherService(
+                String.valueOf(field_loc.Coordinates__Latitude__s), 
+                String.valueOf(field_loc.Coordinates__Longitude__s),
+                'current,minutely,hourly'
+            );
+            if(weather_data.isRainForcast())
+            {
+                response_body.put('Message', 'Not Recommended: The rain is forcasted for today');
+            }
+            else 
+            {
+                response_body.put('Message', 'Recommended: The water level is low');
+            }        
+            
         }
         else 
         {
-            response_body.put('Message', 'Not Recommended');    
+            response_body.put('Message', 'Not Recommended: The water level meet the requirements');    
         }
 
         response_body.put('Suggested Water Level', actuator_water_level);
@@ -118,5 +137,53 @@ global class Analyzer
         return response_body;
     }
 
+    
+
+    public static Weather weatherService(String lat, String lon, String exclude)
+    {
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        String request_params = 'lat={!lat}&lon={!lon}&appid={!api_key}';
+        request_params = request_params.replace('{!lat}', lat);
+        request_params = request_params.replace('{!lon}', lon);
+        request_params = request_params.replace('{!api_key}', WEATHER_API_KEY);
+        String request_url = 'https://api.openweathermap.org/data/2.5/onecall';
+        request.setEndpoint(request_url+'?'+request_params);
+        request.setMethod('GET');
+        HttpResponse response = http.send(request);
+        Weather weather_data;
+        if (response.getStatusCode() == 200) 
+        {
+            Map<String, Object> weather_obj = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+            List<Object> weather_forcast_list = (List<Object>) weather_obj.get('daily');
+            if(weather_forcast_list.size() == 0)
+            {
+                throw new AnalyzerException(Label.WeatherServiceDown);
+            }
+
+            weather_data = new Weather(
+                (Map<String,Object>)weather_forcast_list[0]
+            );
+        }
+        else 
+        {
+            throw new AnalyzerException(Label.WeatherServiceDown);
+        }
+        return weather_data;
+    }
+
+    public static FieldLocation__c getFieldLocation()
+    {
+        List<FieldLocation__c> field_loc = [
+            SELECT Coordinates__Latitude__s, Coordinates__Longitude__s
+            FROM FieldLocation__c WHERE isActive__c = true
+            LIMIT 1
+        ];
+        if(field_loc.size() == 0)
+        {
+            throw new AnalyzerException('No Active Field Location is Found');
+        }
+        return field_loc[0];
+    }
     public class AnalyzerException extends Exception{}
 }

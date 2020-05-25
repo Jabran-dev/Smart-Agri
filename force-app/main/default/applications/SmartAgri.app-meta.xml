@@ -13,6 +13,94 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Location</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FieldLocation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Fertilization_Planner_Entry</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Fertilization_Planner_Entry</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Fertilization_Planner_Entry</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Fertilization_Planner_Entry</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Fertilization_Planner_Entry</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>Fertilization_Planner_Entry</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
@@ -66,49 +154,11 @@
         <pageOrSobjectType>IrrigationPlanner__c</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Fertilization_Planner_Entry</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Fertilization_Planner_Entry</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Fertilization_Planner_Entry</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Fertilization_Planner_Entry</content>
-        <formFactor>Small</formFactor>
-        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Fertilization_Planner_Entry</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>FertilizationPlanner__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
     </profileActionOverrides>
     <tabs>FertilizationPlanner__c</tabs>
     <tabs>IrrigationPlanner__c</tabs>
+    <tabs>Analyzer</tabs>
+    <tabs>FieldLocation__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Smart_Agri_UtilityBar</utilityBar>
 </CustomApplication>

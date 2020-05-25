@@ -16,4 +16,12 @@
         <shortDescription>NotFound</shortDescription>
         <value>{!sobject} entry not found for today!</value>
     </labels>
+    <labels>
+        <fullName>WeatherServiceDown</fullName>
+        <categories>Data</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Weather service is down</shortDescription>
+        <value>Weather forecasting service is down</value>
+    </labels>
 </CustomLabels>

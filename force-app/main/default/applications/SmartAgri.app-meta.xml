@@ -155,9 +155,9 @@
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
+    <tabs>Analyzer</tabs>
     <tabs>FertilizationPlanner__c</tabs>
     <tabs>IrrigationPlanner__c</tabs>
-    <tabs>Analyzer</tabs>
     <tabs>FieldLocation__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Smart_Agri_UtilityBar</utilityBar>

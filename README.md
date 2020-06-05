@@ -46,14 +46,20 @@ Smart Agri is an application that facilitates the operations of irrigation and f
     sfdx force:source:push
     ```
 
-6. Import sample data:
+6. Assign the Admin permissions
+
+    ```
+    sfdx force:user:permset:assign --targetusername smart-agri --permsetname SmartAgriAdminPer
+    ```
+
+7. Import sample data:
 
     ```
     sfdx force:data:tree:import --plan ./data/data-plan.json
     ```
 
 
-7. Open the scratch org:
+8. Open the scratch org:
 
     ```
     sfdx force:org:open
